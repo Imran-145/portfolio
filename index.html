@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for Imran Seid, a junior fullstack developer skilled in HTML, CSS, JavaScript, React JS, SQL, and backend fundamentals."
+    />
+    <title>Imran Seid | Junior Fullstack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Imran Seid home">
+        <img src="assets/imran-logo.png" alt="Imran Seid logo" />
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="#contact">Hire Me</a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="mobile-nav" data-mobile-nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <main>
+      <section class="hero" id="home">
+        <img class="hero-bg" src="assets/pf2.jpg" alt="Imran Seid in a formal suit" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">Junior Fullstack Developer</p>
+          <h1>Imran Seid</h1>
+          <p class="hero-copy">
+            I build clean, responsive web experiences with HTML, CSS, JavaScript, React JS, SQL,
+            and growing backend skills.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button secondary" href="#contact">Let's Talk</a>
+          </div>
+        </div>
+        <div class="hero-status reveal">
+          <span>Available for junior roles</span>
+          <strong>Fullstack Focus</strong>
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Practical developer energy with a polished eye for the frontend.</h2>
+        </div>
+        <div class="intro-grid">
+          <div class="portrait-frame reveal">
+            <img src="assets/pf1.jpg" alt="Professional portrait of Imran Seid" />
+          </div>
+          <div class="intro-copy reveal">
+            <p>
+              I am a junior fullstack developer who enjoys turning ideas into structured,
+              easy-to-use web interfaces. My strongest foundation is frontend development, and I am
+              also building confidence with databases, backend logic, and full application flow.
+            </p>
+            <p>
+              I care about readable code, responsive layouts, clear user journeys, and learning the
+              engineering habits that make software reliable in the real world.
+            </p>
+            <div class="stats-row" aria-label="Developer highlights">
+              <div>
+                <strong>6+</strong>
+                <span>Core Skills</span>
+              </div>
+              <div>
+                <strong>React</strong>
+                <span>Frontend Focus</span>
+              </div>
+              <div>
+                <strong>SQL</strong>
+                <span>Data Basics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I use to design, build, and improve web applications.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-tile reveal">
+            <span>01</span>
+            <h3>HTML</h3>
+            <p>Semantic structure, accessible markup, and content that is easy to maintain.</p>
+          </article>
+          <article class="skill-tile reveal">
+            <span>02</span>
+            <h3>CSS</h3>
+            <p>Responsive layouts, modern visual systems, animation, and polished UI details.</p>
+          </article>
+          <article class="skill-tile reveal">
+            <span>03</span>
+            <h3>JavaScript</h3>
+            <p>Interactive interfaces, DOM logic, browser behavior, and clean user flows.</p>
+          </article>
+          <article class="skill-tile reveal">
+            <span>04</span>
+            <h3>React JS</h3>
+            <p>Component-based screens, state-driven UI, and reusable frontend patterns.</p>
+          </article>
+          <article class="skill-tile reveal">
+            <span>05</span>
+            <h3>SQL</h3>
+            <p>Database fundamentals, queries, relational thinking, and data organization.</p>
+          </article>
+          <article class="skill-tile reveal">
+            <span>06</span>
+            <h3>Backend</h3>
+            <p>Basic server concepts, API thinking, validation, and application logic.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Project directions that match my current fullstack path.</h2>
+        </div>
+        <div class="work-list">
+          <article class="project reveal">
+            <div>
+              <span class="project-number">01</span>
+              <h3>Responsive Business Website</h3>
+            </div>
+            <p>
+              A clean multi-section website concept focused on navigation, responsive layout,
+              service presentation, and conversion-ready contact flow.
+            </p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+          <article class="project reveal">
+            <div>
+              <span class="project-number">02</span>
+              <h3>React Dashboard Interface</h3>
+            </div>
+            <p>
+              A frontend dashboard concept using reusable components, metric summaries, filtered
+              views, and practical data presentation.
+            </p>
+            <ul>
+              <li>React JS</li>
+              <li>CSS</li>
+              <li>UI State</li>
+            </ul>
+          </article>
+          <article class="project reveal">
+            <div>
+              <span class="project-number">03</span>
+              <h3>SQL-Backed App Prototype</h3>
+            </div>
+            <p>
+              A learning project direction for connecting forms, database records, backend routes,
+              and readable application logic.
+            </p>
+            <ul>
+              <li>SQL</li>
+              <li>Backend</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="contact-panel reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let us build something sharp, useful, and ready for real users.</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:imranseid@example.com">Email Me</a>
+            <a class="button secondary" href="tel:+251900000000">Call</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="assets/imran-logo.png" alt="Imran Seid logo" />
+      <p>Imran Seid | Junior Fullstack Developer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
